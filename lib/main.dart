@@ -28,7 +28,7 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-
+//main
   @override
   Widget build(BuildContext context) {
     final String fetchUrl = 'https://jsonplaceholder.typicode.com/posts';
