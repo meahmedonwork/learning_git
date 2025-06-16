@@ -17,6 +17,8 @@ class WebView extends StatelessWidget {
       body: Column(
         children: [
           Text('This is the git Feature-1, Okay!'),
+
+          Text('This is git master'),
           TextField(
             controller: titleController,
             decoration: InputDecoration(labelText: 'Title'),
